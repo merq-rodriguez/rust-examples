@@ -1,0 +1,12 @@
+{
+  "name": "embeber",
+  "version": "1.0.0",
+  "main": "test.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node test.js"
+  },
+  "dependencies": {
+    "ffi": "^2.3.0"
+  }
+}

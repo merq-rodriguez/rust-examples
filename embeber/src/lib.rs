@@ -19,21 +19,11 @@ pub extern fn procesar(){
 }
 
 #[no_mangle]
-pub fn sum(a: i64, b: i64) -> i64 {
+pub extern fn suma(a: i64, b: i64) -> i64 {
     a + b
 }
 
 #[no_mangle]
-pub fn subtrac(a: i64, b: i64) -> i64 {
-    a + b
-}
-
-#[cfg(test)]
-mod test {
-    use ::*;
-
-    #[test]
-    fn test_add() {
-        assert_eq!(4, add(2, 2));
-    }
+pub extern fn resta(a: i64, b: i64) -> i64 {
+    a - b
 }

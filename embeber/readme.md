@@ -1,6 +1,8 @@
-## Rusto embebido con python
+## Rust embebido con python y nodejs
+<img src="https://i.morioh.com/2020/04/29/2ae76f20b377.jpg">
+<img src="https://i.morioh.com/200724/cd9eb82c.webp">
 
-Agregar en el archivo Cargo.toml
+1) Agregar en el archivo Cargo.toml
 
 ```
   [lib]
