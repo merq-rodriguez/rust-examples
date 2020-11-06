@@ -56,3 +56,8 @@ for num in nums.iter(){
     println!("{}", num)
 }
 ```
+
+## Adaptadores de iterador
+
+Los adaptadores de iteradores toman un iterador y lo modifican de alguna manera,produciendo uno nuevo. El mas simple es llamado `map`:
+
